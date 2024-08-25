@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    
+    <header>
+        <div class="header">
+        <a class="header_home" href="index.html">
+            <img class="header_home_img" src="./img/alura.svg" alt="home">
+        </a>
+        </div>
+    </header>
+    <main>
+        <div class="contenedor">
+            <section class="contenedorEncriptado">
+                    <textarea name="texto" id="texto" class="texto"
+                       placeholder="ingrese el texto aqui"></textarea>
+                    
+                <div class="instrucciones_botones">
+                    <div class="instrucciones">
+                    <img src="./img/!.svg" alt="atencion">
+                    <span class="info_instrucciones">solo letras minusculas y sin acentos</span>
+                    </div>
+
+                    <div class="botones">
+                    <button id="boton_encriptado"  class="boton_encriptado">Encriptar</button>
+                    <button id="boton_desencriptado" class="boton_desencriptado">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <div id="encriptado" class="encriptado ajustar">    
+                
+                    <img src="./img/munheco.svg" alt="a" id="imagen2" class="munheco">
+                    <textarea   id="tituloMensaje" class="mensaje ajustar" placeholder="Ningún mensaje fue encontrado" ></textarea>
+                    <p class="info" id="parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    <button id="boton_copia" class="boton_copia oculto">Copiar</button>
+                
+            </div>
+        </div>    
+    </main>
+    <footer>
+        
+        <p class="creador">Create by 
+            <a href="https://diegollanosr.github.io/" target="_blank" class="usuario"> Antony Garabito Quinto
+            </a>
+        </p>
+        <div class="etc">
+            
+            <a href="https://github.com/antony-garabito-quinto" target="_blank">
+                <img class="links" src="./img/github.svg" />
+            </a>
+            
+            <a href="https://www.linkedin.com/in/antony-quinto-20b14623a/" target="_blank">
+                <img class="links" src="./img/linkedin.svg" />
+            </a>
+        </div>
+        
+    </footer> 
+    <script src="./js/app.js"></script>
+</body>
+</html> 
